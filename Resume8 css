@@ -1,0 +1,38 @@
+@media only screen and (max-width: 600px) {
+    // CSS rules for mobile screens go here
+  
+    .resume-sec {
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+  
+    .resume-section-heading {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    // CSS rules for tablet screens go here
+  
+    .resume-sec {
+      padding: 20px;
+      margin-bottom: 40px;
+    }
+  
+    .resume-section-heading {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    // CSS rules for laptop screens go here
+  
+    .resume-sec {
+      padding: 30px;
+      margin-bottom: 60px;
+    }
+  
+    .resume-section-heading {
+      font-size: 20px;
+    }
+  }
